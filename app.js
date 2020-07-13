@@ -1,4 +1,3 @@
-
 // THIS IS COMPLETE JS ASSIGNMENT FROM CHAPTER 1 TO 67.
 
 // Chapter 1 --Task 1
@@ -426,75 +425,70 @@
 // chapter 9-11 task 8
 // var number = Number(prompt("Enter any number: "));
 // if (number % 3 === 0) {
-    //   alert("Great! Number is divisble by 3.");
-    // }
-    // else{
-        //     alert("Sorry! Number is not divisible by 3.")
-        // }
-        
-        
+//   alert("Great! Number is divisble by 3.");
+// }
+// else{
+//     alert("Sorry! Number is not divisible by 3.")
+// }
+
 // chapter 9-11 task 9
 // var number = Number(prompt("Enter any number: "));
 // if (number % 2 === 0) {
-    //   alert("Number is Even.");
-    // }
-    // else{
-        //     alert("Number is odd.")
-        // }
-
+//   alert("Number is Even.");
+// }
+// else{
+//     alert("Number is odd.")
+// }
 
 // chapter 9-11 task 10
 
 // var t=Number(prompt("Enter temperature: "));
 // if (t>40) {
-    //     alert("Its too hot outside");
-    // }
+//     alert("Its too hot outside");
+// }
 // else if(t>30) {
-    //     alert("weather is normal");
+//     alert("weather is normal");
 // }
 // else if(t>20){
-    //     alert("weather is cool");
-        
+//     alert("weather is cool");
+
 // }
 // else if(t>10) {
-    //     alert("OMG weather is very cool")   
-    // }
-    // else{
-        //     alert("Invalid entry")
-        // }
-                
-                
+//     alert("OMG weather is very cool")
+// }
+// else{
+//     alert("Invalid entry")
+// }
+
 // chapter 9-11 task 11
 // var num1=Number(prompt("Enter first number: "));
 // var num2=Number(prompt("Enter second number: "));
 // var opts=prompt("( +,-,*,/ )");
 // var total;
 // if (opts==="+") {
-    //     total=num1+num2;
-    //     alert(total);
-    // }
-    // else if (opts==="-"){
-        //     total=num1-num2;
+//     total=num1+num2;
 //     alert(total);
-    
+// }
+// else if (opts==="-"){
+//     total=num1-num2;
+//     alert(total);
+
 // }
 // else if (opts==="*"){
 //     total=num1*num2;
 //     alert(total);
-    
+
 // }
 // else if (opts==="/"){
 //     total=num1/num2;
 //     alert(total);
-    
+
 // }
 // else{
 //     alert("Invalid Entry")
 // }
 
-
 //Chapter 12-13 task 1
-
 
 // var strings = 'Gopal';
 // var i=4;
@@ -516,7 +510,6 @@
 
 //Chapter 12-13 task 2
 
-
 // var a=Number(prompt("First number: "))
 // var b=Number(prompt("Second number: "))
 
@@ -527,9 +520,7 @@
 //     alert(b+" is larger then "+a)
 // }
 
-
 //Chapter 12-13 task 3
-
 
 // var no=Number(prompt("Enter any number: "))
 // if (no==0){
@@ -545,8 +536,6 @@
 //     alert("Invalid Number")
 // }
 
-
-
 //Chapter 12-13 task 4
 
 // var one=prompt("Enter one letter: ")
@@ -557,9 +546,7 @@
 //     alert(false)
 // }
 
-
 //Chapter 12-13 task 5
-
 
 // var pass="GopalDas";
 // var ask=prompt("Enter Password: ");
@@ -569,8 +556,6 @@
 // else{
 //     alert("Incorrect Password")
 // }
-
-
 
 //Chapter 12-13 task 6
 
@@ -582,7 +567,6 @@
 // else{
 //     greeting = "Good evening";
 // }
-
 
 //Chapter 12-13 task 7
 
@@ -603,13 +587,9 @@
 //     alert("Invalid Entry")
 // }
 
-
-
 // Chapter 14-16 --- Task-1
 
-
-
-
+// Chapter 17-20 --- Task-1
 
 // Chapter 21-25 --- Task-1
 
@@ -972,8 +952,6 @@
 // var num2=Number(prompt("Enter 2nd Value: "));
 // calculator(num1,num2,operator);
 
-
-
 // Chapter 35-38 --- Task-5
 
 // function sqr(num){
@@ -982,16 +960,12 @@
 // var num=Number(prompt("Enter any value: "));
 // sqr(num);
 
-
-
 // Chapter 35-38 --- Task-6
 
 // function factorial(n) {
 //     return (n != 1) ? n * factorial(n - 1) : 1;
 //   }
 //   alert( factorial(6) );
-
-
 
 // Chapter 35-38 --- Task-7
 
@@ -1000,8 +974,6 @@
 // for (let i = sNum; i <= eNum; i++) {
 //   document.write(i+"<br>");
 // }
-
-
 
 // Chapter 35-38 --- Task-8
 
@@ -1012,24 +984,105 @@
 //     function calSqr(value) {
 //         return value*value;
 //     }
-    
 
 // }
 
 // var base=Number(prompt("Enter Base: "));
 // var perp=Number(prompt("Enter Perpendicular: "));
 
+// Chapter 38-42 --- Task-1
 
+// function power(a,b){
+//     return Math.pow(a,b);
+// }
+// var a=3;
+// var b=4;
+// console.log(power(a,b))
 
+// Chapter 38-42 --- Task-2
 
+// var a = Number(prompt("Enter year: "));
+// if (a % 4 === 0) {
+//   alert(a + " is leap year");
+// } else {
+//   alert(a + " is not leap year");
+// }
 
+// Chapter 38-42 --- Task-3
+// var a=3;
+// var b=4;
+// var c=5;
 
+// function area(a,b,c){
+//     var s=(a+b+c)/2
+//     return s*(s-a)*(s-b)*(s-c)
+// }
+// alert(area(a,b,c))
 
+// Chapter 38-42 --- Task-4
 
+// var eng = 78;
+// var sci = 84;
+// var math = 91;
 
+// function percentage(a, b, c) {
+//   var add = a + b + c;
+//   var dv = (add / 300) * 100 + "%";
+//   return "Percentage is "+" "+ dv;
+// }
 
+// function average(a, b, c) {
+//   var dd = a + b + c;
+//   var vd = dd / 3;
+//   return "Average is " + vd+" ";
+// }
+// function main() {
+//     var x=percentage()
+//     var y=average()
+//     return x+"\n"+y;
+// }
+// console.log(main(78, 84, 91))
 
+// Chapter 38-42 --- Task-5
 
+// Chapter 38-42 --- Task-6
+// var a = "sadjkh qwioe asodoia sdocm sdcji skciew cjnskduw iewchu";
+// function Vowels(string) {
+//     string = string.replace("a", '' );
+// }
+// console.log(Vowels(a));
 
+// Chapter 38-42 --- Task-7
+// Chapter 38-42 --- Task-8
 
+// var dis = Number(prompt("Enter Distance in km: "));
+// function meter() {
+//   var meters = dis * 1000;
+//   return meters;
+// }
+// function foot() {
+//   var feet = dis * 3280.8399;
+//   return feet;
+// }
+// function inch() {
+//   var inches = dis * 39370.0787;
+//   return inches;
+// }
+// function cm() {
+//   var cms = dis * 100000;
+//   return cms
+// }
 
+// alert(dis+" KMs are\n"+ "Meters= "+meter()+"\nFeet= "+foot()+"\nInches= "+inch()+"\nCentimeter= "+cm())
+
+// Chapter 38-42 --- Task-9
+
+var work=Number(prompt("Enter How much did you work(weekly): "));
+function overTime(){
+    if(work<=40){
+        work*12;
+    }
+    else{
+        
+    }
+}
