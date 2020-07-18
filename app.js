@@ -1077,12 +1077,78 @@
 
 // Chapter 38-42 --- Task-9
 
-var work=Number(prompt("Enter How much did you work(weekly): "));
-function overTime(){
-    if(work<=40){
-        work*12;
-    }
-    else{
-        
-    }
-}
+// var work=Number(prompt("Enter How much did you work(weekly): "));
+// function overTime(){
+//     if(work<=40){
+//         work*12;
+//     }
+//     else{
+
+//     }
+// }
+
+// Chapter 43-48 --- Task-1
+
+// function go(){
+//     return alert("The Model Is Samsung A83")
+// }
+
+// Chapter 43-48 --- Task-2
+// Chapter 43-48 --- Task-3
+// var a=document.createElement('table');
+// a+=document.createElement('tr')
+// function delet() {
+//     var a=document.getElementsByClassName("row");
+//     a.length=0
+// }
+// incomplete
+
+
+// Chapter 43-48 --- Task-4
+
+
+// function changeImg(){
+//     var a=document.getElementById('cont');
+//     a.src='https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80';
+// }
+
+
+// function out(){
+//     var a=document.getElementById('cont');
+//     a.src='https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"';
+// }
+
+
+// Chapter 43-48 --- Task-5
+// function add() {
+//     var plus = document.getElementById("val").innerHTML;
+//     plus++;
+//     document.getElementById("val").innerHTML = plus;
+//   }
+//   function neg() {
+//     var nega = document.getElementById("val").innerHTML;
+//     nega--;
+//     document.getElementById("val").innerHTML = nega;
+//   }
+
+// Chapter 49-52 --- Task-1
+// function submit(){
+//     var fname=document.getElementById('fname').value;
+//     var lname=document.getElementById('lname').value;
+//     var mail=document.getElementById('mail').value;
+//     var phone=document.getElementById('phone').value;
+//     document.write('First Name: '+fname+':')
+//     document.write('Last Name: '+lname+':')
+//     document.write('Email: '+mail+':')
+//     document.write('Phone: '+phone+':')
+//   }
+
+// Chapter 49-52 --- Task-2
+
+// function readMore(){
+//     text="Minima corrupti delectus maxime quae dolores excepturi labore officia, aspernatur dolore non similique illo in quidem consequatur adipisci? Quis a voluptatibus perferendis culpa nisi! Corrupti iste id, neque quos vero dolores? Accusamus ipsa, nam quam culpa hic tempore blanditiis eos repellendus, ut a, eum mollitia magni velit. Aut accusamus repellendus harum minima qui consectetur earum id asperiores reiciendis repudiandae ipsa et, minus consequatur!";
+//     var pera=document.getElementById('pera');
+//     pera.innerHTML+=text;
+//     var b=document.getElementById('more');
+//     b.innerHTML="";
+// }
