@@ -1094,30 +1094,27 @@
 // }
 
 // Chapter 43-48 --- Task-2
-// Chapter 43-48 --- Task-3
-// var a=document.createElement('table');
-// a+=document.createElement('tr')
-// function delet() {
-//     var a=document.getElementsByClassName("row");
-//     a.length=0
+// function clik(){
+//     return alert('Thank You for purchasing a phone from us');
 // }
-// incomplete
 
+// Chapter 43-48 --- Task-3
+// var del = document.getElementsByClassName("del");
+// function rem(e) {
+//   e.parentNode.remove();
+//   return;
+// }
 
 // Chapter 43-48 --- Task-4
-
-
 // function changeImg(){
 //     var a=document.getElementById('cont');
 //     a.src='https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80';
 // }
 
-
 // function out(){
 //     var a=document.getElementById('cont');
 //     a.src='https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"';
 // }
-
 
 // Chapter 43-48 --- Task-5
 // function add() {
@@ -1152,3 +1149,69 @@
 //     var b=document.getElementById('more');
 //     b.innerHTML="";
 // }
+
+// Chapter 49-52 --- Task-3
+
+// var del = document.getElementsByClassName("del");
+// function rem(e) {
+//   e.parentNode.remove();
+//   return;
+// }
+
+// var all = document.body.children;
+// // console.log(a)
+
+// // getting form fields
+// var formCont = document.body.childNodes[0];
+// var fName = formCont.childNodes[0];
+// var lName = formCont.childNodes[1];
+// var fullName = fName + " " + lName;
+// var iD = formCont.childNodes[2];
+
+// //getting table fields
+// var tableCont = document.getElementById("table-cont").childNodes[0];
+// var tbID = tableCont.childNodes[1].childNodes[0];
+// var tbFN = tableCont.childNodes[1].childNodes[1];
+// var tbG = tableCont.childNodes[1].childNodes[2];
+// console.log(all);
+
+// function getData() {
+//     tbID.value=iD;
+//     tbFN.value=fullName;
+
+// }
+
+//Sir Ispe pai pura ek ghanta mehnat ki par nai hua
+
+// Chapter 53-58 --- Task-1
+
+// function showImg(e){
+//     console.log(e)
+//     var modalImg=document.getElementById("modalImg")
+//     modalImg.src=e.src
+// }
+
+// Chapter 53-58 --- Task-2
+
+// var name=document.getElementById("gopal").style.fontSize;
+
+// function inn() {
+//     txt = document.getElementById('a');
+//     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+//     currentSize = parseFloat(style);
+//     txt.style.fontSize = (currentSize + 10) + 'px';
+// }
+
+// function outt(){
+//     txt = document.getElementById('a');
+//     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+//     currentSize = parseFloat(style);
+//     txt.style.fontSize = (currentSize - 10) + 'px';
+
+// }
+
+//tried vey hard but couldn't
+
+//Chapter 59-67 --- Task-1
+// var main=document.getElementById("main-content");
+// main.childNodes

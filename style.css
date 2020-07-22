@@ -1,0 +1,14 @@
+.mg-cont{
+    display: flex;
+    margin: auto;
+}
+.imgs{
+    height: 250px;
+    width: 280px;
+}
+
+#modalImg{
+    height: 100%;
+    width: 100%;
+    
+}
